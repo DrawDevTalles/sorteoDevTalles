@@ -1,11 +1,13 @@
 import { useState } from "react";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <div className="bg-gradient-to-b from-darkPurple to-purple h-screen flex justify-center items-center">
-        <h1 className="text-white">DevTalles Sorteos</h1>
+      <div>
+        <Navbar />
       </div>
+      <div className="bg-gradient-to-b from-darkPurple to-purple h-screen flex justify-center items-center"></div>
     </>
   );
 }
