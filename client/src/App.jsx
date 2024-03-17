@@ -1,8 +1,7 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import { Routes, Route, useLocation } from "react-router-dom";
 
+import { Routes, Route, useLocation } from "react-router-dom";
+import Home from "./Components/Home/Home";
 import "./App.css";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Register from "./components/Register/Register";
