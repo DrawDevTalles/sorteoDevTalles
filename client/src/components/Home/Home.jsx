@@ -5,9 +5,7 @@ function Home() {
     return (
      <div>
         <ContestCard/>
-        <NavLink to="/login">
-        <button> Participa </button>
-            </NavLink>
+        <NavLink to="/login"><button> Participa </button></NavLink>
         
      </div>
     )
