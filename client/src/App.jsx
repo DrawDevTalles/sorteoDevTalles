@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="bg-gradient-to-r from-purpleBlue1 via-darkPurple to-darkBlue h-screen flex justify-center items-center text-white">
+      <div className="bg-gradient-to-b from-darkPurple to-purple h-screen flex justify-center items-center text-white">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
